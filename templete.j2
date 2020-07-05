@@ -1,0 +1,11 @@
+[Service]
+ExecStart=/usr/bin/node /home/vagrant/app/app.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+User=root
+Group=wheel
+Environment=Node_ENV=production
+
+[Install]
+WantedBy=multi-user.target
