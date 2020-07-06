@@ -1,5 +1,0 @@
----
-- hosts: c8
-  tasks: 
-   - name: "exe app"
-     

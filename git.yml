@@ -1,6 +1,0 @@
----
-- hosts: dev
-  tasks: 
-    -name: "install application"
-     yum: name=node.js state=installed
-     sudo: yes

@@ -1,6 +1,0 @@
----
-- hosts: c7
-  tasks:
-   - name: Install packages based on package.json.
-     npm:
-      path: /home/vagrant/app/myapp
