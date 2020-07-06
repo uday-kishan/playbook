@@ -1,0 +1,9 @@
+---
+- hosts: dev
+  tasks:
+  -
+    name: "clone git repo"
+    git:
+      repo: https://github.com/uday-kishan/anurag.git
+      dest: /home/vagrant/app
+  
