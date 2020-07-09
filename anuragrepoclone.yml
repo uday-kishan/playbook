@@ -1,9 +1,11 @@
 ---
 - hosts: dev
+  vars:
+   - var1: https://github.com/uday-kishan/anurag.git 
   tasks:
-  -
-    name: "clone git repo"
+  - name: "clone git repo"
+
     git:
-      repo: https://github.com/uday-kishan/anurag.git
+      repo: "{{ var1 }}"
       dest: /home/vagrant/app
   
