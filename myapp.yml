@@ -1,5 +1,9 @@
 ---
 - hosts: all
+# Try Somthing like this
+# vars:
+#  - app_path: /home/vagrant/myapp/app.js
+#  - node_path: /usr/bin/node
   tasks:
   -
     name: install myservice systemd unit file
