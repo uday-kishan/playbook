@@ -1,6 +1,8 @@
 --- 
 - 
   hosts: dev
+  roles: 
+    - anurag
   tasks: 
     -
      become: true

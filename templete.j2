@@ -1,7 +1,5 @@
 [Service]
-# Try something like this
-# ExecStart={node_path} {app_path}
-ExecStart=/usr/bin/node /home/vagrant/app/app.js 
+ExecStart={{ node_path }} {{ app_path }} 
 Restart=always
 StandardOutput=syslog
 StandardError=syslog

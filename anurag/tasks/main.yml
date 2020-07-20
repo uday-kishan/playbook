@@ -1,0 +1,5 @@
+---
+# tasks file for anurag
+ - yum: name=httpd state=installed
+   become: yes
+
