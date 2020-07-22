@@ -1,0 +1,6 @@
+---
+- hosts: c7
+  tasks:
+  - hostname: 
+     name: c7
+    become: true
