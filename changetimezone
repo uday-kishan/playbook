@@ -1,0 +1,7 @@
+---
+- hosts: c7
+  tasks:
+  - timezone: 
+     name: UTC
+    become: true
+
